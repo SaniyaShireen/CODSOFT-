@@ -15,12 +15,19 @@ case:
 """
 
 import random
+
+#selection
+
 item_list = ["rock","paper","scissor"]
 my_choice = input("Enter rock,paper,scissor = ")
+
+#random choice
 
 com_choice = random.choice(item_list)
 
 print(f"I choos {my_choice}, Computer choose {com_choice}")
+
+#if else  condition
 
 if my_choice == com_choice:
     print("Both choose same : Game Tie")
